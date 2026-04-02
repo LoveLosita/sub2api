@@ -1,0 +1,27 @@
+# Database & Redis data (auto-created by docker compose)
+postgres_data/
+redis_data/
+
+# Secrets (use .example templates instead)
+.env
+data/config.yaml
+
+# Logs (auto-generated)
+data/logs/
+
+# Sora temp files
+data/sora/
+
+# Backup files
+*.bak
+
+# SHA256 cache (auto-regenerated)
+data/model_pricing.sha256
+
+# Installed marker (auto-generated)
+data/.installed
+
+# Docker
+.docker/
+.omc/
+.claude/
